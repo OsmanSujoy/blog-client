@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Banner from '../components/Banner';
 import Header from '../components/Header';
-import Posts from '../components/Posts';
+import Thumbnails from '../components/Thumbnails';
 import { IPost } from '../dto/post';
 
 interface Props {
@@ -17,7 +17,7 @@ export default function Home({ posts }: Props) {
       </Head>
       <Header />
       <Banner />
-      <Posts posts={posts} />
+      <Thumbnails posts={posts} />
     </div>
   );
 }

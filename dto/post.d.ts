@@ -1,7 +1,7 @@
 import { Author } from './author';
 
 export interface IPost {
-  id: string;
+  id: number;
   author: Author;
   title: string;
   description: string;
