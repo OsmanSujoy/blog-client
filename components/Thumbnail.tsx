@@ -6,7 +6,7 @@ interface Props {
   post: IPost;
 }
 
-function Post({ post }: Props) {
+function Thumbnail({ post }: Props) {
   return (
     <div>
       <Link key={post.id} href={`/post/${post.slug}`}>
@@ -49,4 +49,4 @@ function Post({ post }: Props) {
   );
 }
 
-export default Post;
+export default Thumbnail;
